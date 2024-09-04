@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table flie</title>
+    <style>
+        table,th,td{
+            border:2px solid green;
+
+            
+
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="table class">
+        <table>
+            <tr>
+                <th> S.no</th>
+                <th>Name</th>
+                <th>Batch.Id</th>
+                <th>Skills</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Babitha</td>
+                    <td>JFS16</td>
+                    <td>JAVA,SQL,HTML</td>
+
+                </tr>
+            <tr>
+                <td>2</td>
+                <td>navya</td>
+                <td>JFS15</td>
+                <td>JAVA,SQL,HTML,bootstrap </td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>neetu</td>
+                <td>JFS14</td>
+                <td>JAVA,SQL,HTML,css</td>
+
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
