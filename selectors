@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>selectors</title>
+    <style>
+        /* universal selector */
+        *
+        {
+           background-color: gray; 
+        } 
+        /* element selector */
+        p
+        {
+            background-color: green;
+        }
+        /* class element */
+        .object{
+            background-color: blueviolet;
+        }
+        .mypara{
+            background-color: brown;
+        }
+        .span{
+            background-color: bisque;
+        }
+        /* id element */
+        #myid{
+            background-color: aqua;
+            color: blue;
+        }
+        #css{
+            background-color: beige;
+            color: greenyellow;
+            
+        }
+        #gg{
+            background-color: blue;
+            color: blueviolet;
+        }
+        span{
+            background-color: black;
+        }
+        /* element vth cls selector */
+        p.mypara{
+            background-color: rgb(153, 226, 43);
+        }
+        /* element vth id selector */
+        h1#myid{
+            background-color: rgb(226, 26, 190);
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="object">
+     
+      <h1 id="myid">heading</h1>
+      <p class="mypara">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga
+        aspernatur ratione consequatur exercitationem ullam repellendus
+        repudiandae facere sint cupiditate! Ex doloribus, eveniet debitis cum
+        temporibus dicta provident delectus est quisquam!
+      </p>
+      <span class="span" id="gg">this is span</span>
+      <div>
+        <h2 id="css">second heading</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+          dolores quasi? Repudiandae illum ducimus similique voluptatem, quae,
+          asperiores blanditiis perferendis dolorem ad aut recusandae quasi
+          distinctio consequuntur, molestias sapiente fuga?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
